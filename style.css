@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    text-align: center;
+    margin: 0;
+
+}
+
+.header {
+    width: 100%;
+    height: 69px;
+    display: block;
+    position: fixed;
+    background-color: black;
+    top: 0px;
+    border-bottom: 1px solid seashell;
+    margin-bottom: 20px;
+    margin-top: 0;
+    top: 0;
+    left: 0;
+    text-align: center;
+
+}
+
+.logo {
+    height: 50px;
+    float: left;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.nav a {
+    text-decoration: underline;
+    float: right; 
+    margin-right: 20px;
+    margin-top: 20px;
+    color: seashell;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    
+
+
+}
+
+#mission-banner {
+    height: 700px;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 110%;
+    width: 1200px;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+
+}
+
+.mission-banner-text {
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+
+}
+
+.tea-of-the-month {
+    width: 1000px;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 60px;
+    opacity: 0.9;
+}
+
+.tea-of-the-month h2 {
+    margin-top: 100px;
+    opacity: 0.9;
+}
+
+.tea-of-the-month img {
+    height: 200px;
+    width: 300px;
+}
+
+.tea-of-the-month-child {
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px;
+    opacity: 0.9;
+}
+
+.tea-of-the-month-child h4 {
+    margin-top: 10px;
+}
+
+.locations-container {
+    height: 500px;
+    width: 1200px;
+    display: inline-block;
+    text-align: center;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+    opacity: 0.9;
+}
+
+
+.location-boxes-child {
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+    width: 300px;
+    margin: 40px;
+    opacity: 0.9;
+}
+
+.location-boxes-child h3, p{
+    padding: 10px;
+    opacity: 0.9;
+
+}
+
+#copyright {
+    float: left;
+    margin-left: 20px;
+    opacity: 0.9;
+}
+
+footer h2, h5 {
+    opacity: 0.9;
+}
+
+
+
