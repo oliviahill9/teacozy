@@ -19,13 +19,13 @@ body {
     display: block;
     position: fixed;
     background-color: black;
-    top: 0px;
     border-bottom: 1px solid seashell;
     margin-bottom: 20px;
     margin-top: 0;
     top: 0;
     left: 0;
     text-align: center;
+    z-index: 1;
 
 }
 
